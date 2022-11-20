@@ -9,11 +9,11 @@ class MusicModel extends HiveObject{
 
  
  @HiveField(0)
- AssetsAudioPlayer linkMusic;
+ AssetsAudioPlayer pathMusic;
 
  MusicModel({
 
-  required this.linkMusic,
+  required this.pathMusic,
 
  });
 
